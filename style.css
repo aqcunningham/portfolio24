@@ -442,3 +442,24 @@ footer p{
   font-size: 0.8rem;
   text-align: center;
 }
+
+p.cstext {
+  text-align: justify;
+  text-justify: inter-word;
+}
+article {
+  display: flex;
+  object-fit: contain; /* Keeps img aspect ratio */
+  align-items: flex-start; /* Aligns items to the top */
+}
+article img {
+  margin-right: 10px; /* Space between image and text */
+  text-align: left;
+}
+
+
+.article-container .icon {
+  width: 24px; /* Adjust icon size as needed */
+  height: 24px;
+
+}
